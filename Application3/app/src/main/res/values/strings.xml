@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Application3</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_1">Enter Text 1</string>
+    <string name="text_2">Enter Text 2</string>
+    <string name="send">Send</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+</resources>

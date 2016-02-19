@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Activity with result</string>
+    <string name="action_settings">Settings</string>
+    <string name="button1">Click me</string>
+    <string name="button2">Click me 2</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
