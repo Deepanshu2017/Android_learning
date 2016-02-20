@@ -15,9 +15,6 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static ArrayList<User> arrayList;
-    public static UserAdapter adapter;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        ArrayList<User> arrayList;
+        UserAdapter adapter;
         ListView listView = (ListView) findViewById(R.id.list);
         arrayList = new ArrayList<>();
         adapter = new UserAdapter(this, arrayList);
