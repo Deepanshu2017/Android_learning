@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         ArrayList<User> arrayList;
-        UserAdapter adapter;
+        final UserAdapter adapter;
         ListView listView = (ListView) findViewById(R.id.list);
         arrayList = new ArrayList<>();
         adapter = new UserAdapter(this, arrayList);
