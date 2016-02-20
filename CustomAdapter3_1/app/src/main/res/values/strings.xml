@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CustomAdapter3</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">Add user</string>
+    <string name="title_activity_add_user">AddUser</string>
+    <string name="title_activity_show_detail">ShowDetail</string>
+</resources>
