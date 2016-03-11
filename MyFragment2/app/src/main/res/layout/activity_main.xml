@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.deepanshu.myfragment2.MainActivity">
+
+    <!-- Main container -->
+    <LinearLayout
+        android:id="@+id/container"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Left part of the screen -->
+        <LinearLayout
+            android:id="@+id/container_left"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <fragment
+                android:id="@+id/left_fragment"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:name="com.example.deepanshu.myfragment2.LeftFragment" />
+            <Button
+                android:id="@+id/button"
+                android:text="Click me"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- Right part of the screen -->
+        <fragment
+            android:id="@+id/right_fragment"
+            android:layout_weight="1"
+            android:name="com.example.deepanshu.myfragment2.RightFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
