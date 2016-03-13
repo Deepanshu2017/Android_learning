@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
         } else {
-            throw new NullPointerException("Exception at fragment_2");Messi
+            throw new NullPointerException("Exception at fragment_2");
         }
     }
 
